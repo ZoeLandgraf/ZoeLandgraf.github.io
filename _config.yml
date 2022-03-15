@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Zoe Landgraf / Site Title"
+title                    : ""
 title_separator          : "-"
 name                     : &name "Zoe Landgraf"
 description              : &description "Final Year PhD student at the Dyson Robotics Lab, Imperial College London"
@@ -185,7 +185,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
